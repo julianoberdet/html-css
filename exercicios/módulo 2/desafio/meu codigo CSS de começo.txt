@@ -1,0 +1,66 @@
+@charset  "UTF-8";
+@font-face {
+    font-family: idroid;
+    src: url(fontes/idroid.otf);
+}
+body{
+    background-color: #90db82;
+}
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #21c404;
+    color: #395035;
+    margin-top: 4px;
+    margin-right: 4px;
+    margin-bottom: 15px;
+    margin-left: 4px;
+    outline: 10px groove #21c404;
+    border-radius: 10px;
+    border: 0px solid #227514;
+    padding: 15px;
+    background-image: linear-gradient(to left#3CCF23,#47A537,#26FA00);
+}
+h1, p {
+    text-align: center;
+}
+nav{
+    background-color: rgba(1, 139, 1, 0.938);
+    color: white;
+    padding: 3px;
+    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.493);
+}
+nav > a{
+    text-decoration: none;
+    margin-right: 30px;
+    font-weight: bold;
+    color:greenyellow;
+}
+nav >a:hover{
+    text-decoration: underline;
+    color: rgba(255, 255, 254, 0.836);
+}
+main{
+    margin: 10px 250px 10px 250px;
+    
+    background-color: white;
+    padding: 15px;
+}
+h3{
+    background-color: #21c404;
+
+}
+footer{
+    background-color: #395035;
+    color: white;
+}
+footer > a{
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+    color: greenyellow;
+}
+footer >a:hover{
+    color: white;
+    text-decoration: underline;
+
+}

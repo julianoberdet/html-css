@@ -1,0 +1,26 @@
+@charset "UTF-8";
+body{
+    background-image: linear-gradient(to right,#FFC738,#FF7300);
+    border-radius: 10px;
+    width: 800px;
+    padding: 10px;
+    margin: auto;
+}
+main {
+    background-color: white;
+    border-radius: 10px;
+}
+h1 {
+    font-family: 'musica';
+    color: #44b3b1;
+    font-weight: 50px;
+    font-style: normal;
+    text-align: center;
+    margin: auto;
+}
+h2 {
+    color: #44B3B1;
+    text-shadow: 1p 1px 2px #399694ec;
+    text-decoration: underline;
+    margin: auto;
+}
