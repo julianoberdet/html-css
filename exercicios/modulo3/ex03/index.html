@@ -12,14 +12,29 @@
             font-size: 1.3em;
             font-weight: bold;
             padding: 10px;
+            color: black;
         }
         table{
             border-collapse: collapse;
+            background-color: rgb(255, 31, 31);
+            color: white;
 
         }
         th, td{
             border: 1px solid gray;
             padding: 10px;
+        }
+        th{
+            background-color: red;
+        }
+        h1{
+            background-image: linear-gradient(to right,red,white);
+            color: rgb(221, 4, 4);
+            width: 550px;
+            text-align: center;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            border-radius: 30px;
+            box-shadow: 1px 1px 1px 1px rgba(255, 0, 0, 0.589);
         }
     </style>
 </head>
@@ -31,14 +46,14 @@
         </caption>
         <thead>
             <tr>
-                <th>Grupos</th>
-                <th>Nomes</th>
-                <th colspan="3">Filmes</th>
+                <th scope="col">Grupos</th>
+                <th scope="col">Nomes</th>
+                <th colspan="3" scope="colgroup">Filmes</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <th rowspan="3">Mulheres</th>
+                <th rowspan="3" scope="rowgroup">Mulheres</th>
                 <td>Maria Santos</td>
                 <td>Alien</td>
                 <td>Rambo</td>
@@ -57,7 +72,7 @@
                 <td>Big Hero</td>
             </tr>
             <tr>
-                <th rowspan="3">Homens</th>
+                <th rowspan="3" scope="rowgroup">Homens</th>
                 <td>Bruno Mendonça</td>
                 <td>Intocaveis</td>
                 <td>Amnesia</td>
