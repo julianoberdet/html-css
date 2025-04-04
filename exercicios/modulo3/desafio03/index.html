@@ -25,18 +25,28 @@
             font-weight: bold;
             text-align: left;
         }
+        col.notas{
+
+        }
     </style>
 </head>
 <body>
     <table>
+        <colgroup>
+            <col>
+            <col>
+            <col class="notas">
+        </colgroup>
         <thead>
             <tr>
-                <th scope="col" rowspan="2">Área</th>
-                <th scope="col" rowspan="2">Disciplinas</th>
-                <th scope="colgroup" rowspan="2">Notas</th>
-                <th scope="colgroup" rowspan="2">Nota1</th>
-                <th scope="colgroup" rowspan="2">Nota2</th>
-                <th scope="col">Média</th>
+                <th rowspan="2">Área</th>
+                <th rowspan="2">Disciplinas</th>
+                <th colspan="2">Notas</th>
+                <th rowspan="3">Média</th>
+                <tr>
+                    <th>Nota1</th>
+                    <th>Nota2</th>
+                </tr>
             </tr>
         </thead>
         <tbody>
@@ -66,7 +76,7 @@
                 <td>10.0</td>
             </tr>
             <tr class="media">
-                <td colspan="5">Media de exatas</td>
+                <td colspan="4">Media de exatas</td>
                 <td>10.0</td>
             </tr>
             <tr>
@@ -83,7 +93,7 @@
                 <td>10.0</td>
             </tr>
             <tr class="media">
-                <td colspan="5">Média em humanas</td>
+                <td colspan="4">Média em humanas</td>
                 <td>10.0</td>
             </tr>
         </tbody>
