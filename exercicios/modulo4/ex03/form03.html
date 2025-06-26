@@ -4,6 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: auto;
+            margin-top: 100px;
+            width: 500px;
+            padding: 40px;
+            border: 4px solid black;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.671);
+            text-align: center;
+            text-shadow: 1px 1px 1px black;
+        }
+        h1 {
+            text-shadow: 1px 1px 1px black;
+        }
+    </style>
 </head>
 <body>
     <h1>Teste de formulário</h1>
@@ -15,6 +31,18 @@
         <p>
             <label for="imedia"> Média:</label>
             <input type="number" name="media" id="imedia" placeholder="0 a 10" min="0" max="10" step="0.1" required>
+        </p>
+        <p>
+            <label for="imes">Periodo letivo:</label>
+            <input type="month" name="mes" id="imes">
+        </p>
+        <p>
+            <label for="idia"> Dia da prova:</label>
+            <input type="date" name="dia" id="idia">
+        </p>
+        <p>
+            <label for="ihora">Hora da prova:</label>
+            <input type="time" name="hora" id="ihora">
         </p>
         <p>
             <input type="submit" value="Enviar">
