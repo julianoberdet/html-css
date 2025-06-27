@@ -7,13 +7,27 @@
 </head>
 <body>
     <h1>Teste de formulário</h1>
-    <form action="cadastro.php" method="get" autocomplete="on"></form>
-
-    
+    <form action="cadastro.php" method="get" autocomplete="on">
+    <fieldset>
+        <legend>Sexo</legend>
+        <input type="radio" name="sexo" id="isxmasc" value="M"> <label for="isxmasc">Masculino</label><br>
+        <input type="radio" name="sexo" id="isxfemi" value="F"> <label for="isxfemi">Feminino</label><br>
+    </fieldset>
+    <fieldset>
+        <legend>Esportes Favoritos</legend>
+        <input type="checkbox" name="espbas" id="iespbas"> <label for="iespbas">Basquete</label><br>
+        <input type="checkbox" name="espvol" id="iespvol"> <label for="iespvol">Voleibol</label><br>
+        <input type="checkbox" name="espfut" id="iespfut"> <label for="iespfut">Futebol</label><br>
+        <input type="checkbox" name="espten" id="iespten"> <label for="iespten">Tênis</label><br>
+        <input type="checkbox" name="espskt" id="iespskt"> <label for="iespskt">Skate</label><br>
+        <input type="checkbox" name="espsurf" id="iespsurf"> <label for="iespsurf">Surf</label><br>
+        <input type="checkbox" name="espnat" id="iespnat"> <label for="iespnat">Natação</label><br>
+    </fieldset>
     <p>
         <input type="submit" value="Enviar">
         <input type="reset" value="Limpar">
     </p>
+    </form>
     
 </body>
 </html>
