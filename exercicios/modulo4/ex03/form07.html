@@ -10,9 +10,62 @@
     <form action="cadastro.php" method="get">
     <p>
         <label for="iest">Estado</label>
-        <select name="estado" id="iest"></select>
-    </p>
-
+        <select name="estado" id="iest">
+        <optgroup label="Região Sudeste">
+            <option value="MG">Minas gerais</option>
+            <option value="SP">São Paulo</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="ES">Espírito Santo</option>
+        </optgroup>
+        <optgroup label="Região Sul">
+            <option value="RS">Rio Grande do Sul</option>
+            <option value="SC">Santa Catarina</option>
+            <option value="PR">Paraná</option>
+        </optgroup>
+        <optgroup label="Região Nordeste">
+            <option value="BA">Bahia</option>
+            <option value="PE">Pernambuco</option>
+            <option value="CE">Ceará</option>
+            <option value="MA">Maranhão</option>
+            <option value="PI">Piauí</option>
+            <option value="AL">Alagoas</option>
+            <option value="SE">Sergipe</option>
+            <option value="TO">Tocantins</option>
+            <option value="PB">Paraíba</option>
+            <option value="RN">Rio Grande do Norte</option>
+        </optgroup>
+        <optgroup label="Região Centro-Oeste">
+            <option value="GO">Goiás</option>
+            <option value="DF">Distrito Federal</option>
+            <option value="MT">Mato Grosso</option>
+            <option value="MS">Mato Grosso do Sul</option>
+        </optgroup>
+        <optgroup label="Região Norte">
+            <option value="AC">Acre</option>
+            <option value="AM">Amazonas</option>
+            <option value="AP">Amapá</option>
+            <option value="PA">Pará</option>
+            <option value="RO">Rondônia</option>
+            <option value="RR">Roraima</option>
+        </p>
+        </select>
+        <p>
+            <label for="iprof">Profissão:</label>
+            <input type="text" name="prof" id="iprof" list="lstprof"> <br>
+            <datalist id="lstprof">
+                <option value="Programador">
+                <option value="Engenheiro">
+                <option value="Médico">
+                <option value="Professor">
+                <option value="Designer">
+                <option value="Arquiteto">
+                <option value="Advogado">
+            </datalist>
+        </p>
+        <p>
+            <label for="imsg">Mensagem:</label><br>
+            <textarea name="msg" id="imsg" cols="30" rows="10" placeholder="digite sua mensagem..."></textarea>
+        </p>
     <input type="submit" value="Enviar">
     <input type="reset" value="Limpar">
     </form>
