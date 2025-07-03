@@ -9,24 +9,36 @@ html{
     font-size: 1em;
 }
 header{
-    border: 30px solid rgb(73, 188, 226);
     background-color: rgb(73, 188, 226);
 }
-header h1{
+header h1{ 
+    padding: 30px;
+    font-size: 3.3em;
+    font-weight: normal;
+    color: white;
     text-align: center;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.411)
 }
 menu ul{
     list-style-type: none;
     background-color: rgb(90,200,250);
 }
 menu li{
-    background-color: rgb(73, 73, 250);
+    background-color: rgb(112, 112, 247);
     display: inline-block;
-    padding: 5px;
+    padding: 3px;
     color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.466);
 }
 article{
     width: 500px;
     display: block;
     margin: auto;
+    text-align: justify;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.473);
+}
+article h2{
+    padding-top: 10px;
+    font-size: 1.6em;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.534);
 }
