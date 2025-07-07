@@ -1,0 +1,33 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body, html{
+    background-color: lightgrey;
+}
+header{
+    background-color: gray;
+    width: 100vw;
+    padding: 50px;
+}
+menu li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+} 
+a{
+    color: white;
+    text-decoration: none;
+}   
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3em;
+    text-align: center;
+}
+article{
+    background-color: white;
+    width: 600px;
+    display: block;
+    margin: auto;
+}
