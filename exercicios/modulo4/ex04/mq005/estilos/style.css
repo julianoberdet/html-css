@@ -17,6 +17,7 @@ menu li{
     padding: 10px;
 } 
 a{
+    text-align: left;
     color: white;
     text-decoration: none;
 }   
@@ -24,6 +25,7 @@ h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 3em;
     text-align: center;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.562);
 }
 article{
     background-color: white;
