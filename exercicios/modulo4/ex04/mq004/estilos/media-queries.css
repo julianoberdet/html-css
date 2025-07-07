@@ -7,6 +7,30 @@ tablet: de 768px até 992px
 Desktop: e 992px até 1200px
 grandes telas: acima de 1200px */
 @media print{ /* IMPRESSÃO */
+    *{
+        font-family: 'Courier New', Courier, monospace;
+    }
+    body{
+        background-image: url(../imagens/icon-print.png);
+    }
+    main{
+        width: 90vw;
+        border: 2px solid black
+    }
+    main h1{
+        color: black;
+        text-shadow: none;
+    }
+    main::after{
+        content: 'Este arquivo foi feito por Juiano Boavista Berdet';
+        text-decoration: overline;
+    }
+    img#phone { display: none;}
+    img#tablet { display: none;}
+    img#impressora { display: block;}
+    img#pc { display: none;}
+    img#tv { display: none;}
+
 }
 @media screen and (min-width: 768px) and (max-width: 992px) { /* TABLET */
     body {
@@ -18,8 +42,8 @@ grandes telas: acima de 1200px */
     img#pc { display: none;}
     img#tv { display: none;}
 }
-@media screen and(min-width: 992px) and (max-width: 1200px) { /* PC */
-    body{
+@media screen and (min-width: 992px) and (max-width: 1200px) { /* PC */
+    body {
         background-image: url(../imagens/back-pc.jpg);
     }
     img#phone { display: none;}
