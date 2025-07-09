@@ -45,11 +45,13 @@
     </main>
     <script>
         function clickMenu() {
-            if(itens.style.display == 'block')
-                itens.style.display = 'none';
-            else
-                itens.style.display = 'block';
+        var itens = document.getElementById("itens");
+        if (itens.style.display == 'block') 
+            itens.style.display = "none";
+         else 
+            itens.style.display = 'block';
         }
+
     </script>
 </body>
 </html>
