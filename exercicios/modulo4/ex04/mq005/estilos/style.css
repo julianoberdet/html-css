@@ -45,6 +45,7 @@ menu > ul > li > a{
 }
 menu > ul > li > a:hover{
     background-color: gray;
+    color: black;
 }
 main{
     width: 90vw;
