@@ -20,7 +20,6 @@ header h1{
 span#burger{
     background-color: rgb(48,48,48);
     color: rgb(20, 18, 18);
-    width: 100vw;
     display: block;
     text-align: center;
     padding: 10px;
@@ -52,7 +51,7 @@ menu > ul > li > a:hover{
     color: black;
 }
 main{
-    width: 90vw;
+    width: 85vw;
     background-color: white;
     margin: auto;
     margin-top: 10px;
