@@ -20,7 +20,7 @@ header h1{
 span#burger{
     background-color: rgb(48,48,48);
     color: rgb(20, 18, 18);
-    width: 97%;
+    width: 100vw;
     display: block;
     text-align: center;
     padding: 10px;
